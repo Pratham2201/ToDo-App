@@ -91,7 +91,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func setUpRootVC()
     {
         
-        window?.rootViewController = UINavigationController(rootViewController: getUIViewControllerFromID("ApiCallViewController"))
+        window?.rootViewController = UINavigationController(rootViewController: getUIViewControllerFromID("LogInVC"))
     }
     
     func addBottomTabBarViewController()

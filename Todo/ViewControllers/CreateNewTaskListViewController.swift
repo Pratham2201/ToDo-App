@@ -24,6 +24,7 @@ class CreateNewTaskListViewController: UIViewController {
         
         delegate?.updateTaskListView()
         self.dismiss(animated: true)
+        
     }
     
 

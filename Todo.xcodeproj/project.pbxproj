@@ -20,6 +20,14 @@
 		5E61B37229B873B90077CA1F /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E61B37129B873B90077CA1F /* CalendarViewController.swift */; };
 		5E61B37429B87E250077CA1F /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E61B37329B87E250077CA1F /* CalendarCollectionViewCell.swift */; };
 		5E61B37629B890FE0077CA1F /* BottomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E61B37529B890FE0077CA1F /* BottomTabBarController.swift */; };
+		5E6950BC29FA4BAE00BD0094 /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6950BB29FA4BAE00BD0094 /* Login.png */; };
+		5E6950C429FA4BEC00BD0094 /* Create Task.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6950BD29FA4BEC00BD0094 /* Create Task.png */; };
+		5E6950C529FA4BEC00BD0094 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6950BE29FA4BEC00BD0094 /* Settings.png */; };
+		5E6950C629FA4BEC00BD0094 /* Calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6950BF29FA4BEC00BD0094 /* Calendar.png */; };
+		5E6950C729FA4BEC00BD0094 /* Create Task - Set Date.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6950C029FA4BEC00BD0094 /* Create Task - Set Date.png */; };
+		5E6950C829FA4BEC00BD0094 /* Create Task - Set Priority.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6950C129FA4BEC00BD0094 /* Create Task - Set Priority.png */; };
+		5E6950C929FA4BEC00BD0094 /* Task List.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6950C229FA4BEC00BD0094 /* Task List.png */; };
+		5E6950CA29FA4BEC00BD0094 /* Task Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6950C329FA4BEC00BD0094 /* Task Home.png */; };
 		5EA13BE129ADCFF200052591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA13BE029ADCFF200052591 /* AppDelegate.swift */; };
 		5EA13BE529ADCFF200052591 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA13BE429ADCFF200052591 /* ViewController.swift */; };
 		5EA13BE829ADCFF200052591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA13BE629ADCFF200052591 /* Main.storyboard */; };
@@ -56,6 +64,14 @@
 		5E61B37129B873B90077CA1F /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		5E61B37329B87E250077CA1F /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
 		5E61B37529B890FE0077CA1F /* BottomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabBarController.swift; sourceTree = "<group>"; };
+		5E6950BB29FA4BAE00BD0094 /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
+		5E6950BD29FA4BEC00BD0094 /* Create Task.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Create Task.png"; sourceTree = "<group>"; };
+		5E6950BE29FA4BEC00BD0094 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		5E6950BF29FA4BEC00BD0094 /* Calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar.png; sourceTree = "<group>"; };
+		5E6950C029FA4BEC00BD0094 /* Create Task - Set Date.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Create Task - Set Date.png"; sourceTree = "<group>"; };
+		5E6950C129FA4BEC00BD0094 /* Create Task - Set Priority.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Create Task - Set Priority.png"; sourceTree = "<group>"; };
+		5E6950C229FA4BEC00BD0094 /* Task List.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Task List.png"; sourceTree = "<group>"; };
+		5E6950C329FA4BEC00BD0094 /* Task Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Task Home.png"; sourceTree = "<group>"; };
 		5EA13BDD29ADCFF200052591 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA13BE029ADCFF200052591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EA13BE429ADCFF200052591 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +132,21 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		5E6950BA29FA4B9C00BD0094 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				5E6950BF29FA4BEC00BD0094 /* Calendar.png */,
+				5E6950C029FA4BEC00BD0094 /* Create Task - Set Date.png */,
+				5E6950C129FA4BEC00BD0094 /* Create Task - Set Priority.png */,
+				5E6950BD29FA4BEC00BD0094 /* Create Task.png */,
+				5E6950BE29FA4BEC00BD0094 /* Settings.png */,
+				5E6950C329FA4BEC00BD0094 /* Task Home.png */,
+				5E6950C229FA4BEC00BD0094 /* Task List.png */,
+				5E6950BB29FA4BAE00BD0094 /* Login.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		5EA13BD429ADCFF200052591 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +166,7 @@
 		5EA13BDF29ADCFF200052591 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				5E6950BA29FA4B9C00BD0094 /* Screenshots */,
 				5EC2BC7A29BF2B5B000EFC27 /* Models */,
 				5EC2BC7129BB2F39000EFC27 /* ViewCells */,
 				5EC2BC7029BB2EF2000EFC27 /* ViewControllers */,
@@ -342,10 +374,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E6950C529FA4BEC00BD0094 /* Settings.png in Resources */,
+				5E6950C629FA4BEC00BD0094 /* Calendar.png in Resources */,
+				5E6950C929FA4BEC00BD0094 /* Task List.png in Resources */,
 				5EA13BED29ADCFF400052591 /* LaunchScreen.storyboard in Resources */,
+				5E6950CA29FA4BEC00BD0094 /* Task Home.png in Resources */,
+				5E6950C829FA4BEC00BD0094 /* Create Task - Set Priority.png in Resources */,
 				5EA13BEA29ADCFF400052591 /* Assets.xcassets in Resources */,
 				5EA13BE829ADCFF200052591 /* Main.storyboard in Resources */,
+				5E6950C729FA4BEC00BD0094 /* Create Task - Set Date.png in Resources */,
+				5E6950BC29FA4BAE00BD0094 /* Login.png in Resources */,
 				5E4F144C29B5B76500AE7089 /* TodoTableViewCell.xib in Resources */,
+				5E6950C429FA4BEC00BD0094 /* Create Task.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
