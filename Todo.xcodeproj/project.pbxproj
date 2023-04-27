@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E00905829B9BC2B00835CAC /* UserDefaultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E00905729B9BC2B00835CAC /* UserDefaultsViewController.swift */; };
-		5E2DDDA429D59114007DC8F1 /* ApiCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2DDDA329D59114007DC8F1 /* ApiCallViewController.swift */; };
-		5E2DDDA729D591B2007DC8F1 /* ApiCallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2DDDA629D591B2007DC8F1 /* ApiCallViewModel.swift */; };
 		5E35BFFB29AFBB55005C788E /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35BFFA29AFBB55005C788E /* LogInVC.swift */; };
 		5E4F144829B4665A00AE7089 /* TodoTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F144729B4665A00AE7089 /* TodoTasksViewController.swift */; };
 		5E4F144B29B5B76500AE7089 /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F144929B5B76500AE7089 /* TodoTableViewCell.swift */; };
@@ -29,7 +26,6 @@
 		5E6950C929FA4BEC00BD0094 /* Task List.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6950C229FA4BEC00BD0094 /* Task List.png */; };
 		5E6950CA29FA4BEC00BD0094 /* Task Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6950C329FA4BEC00BD0094 /* Task Home.png */; };
 		5EA13BE129ADCFF200052591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA13BE029ADCFF200052591 /* AppDelegate.swift */; };
-		5EA13BE529ADCFF200052591 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA13BE429ADCFF200052591 /* ViewController.swift */; };
 		5EA13BE829ADCFF200052591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA13BE629ADCFF200052591 /* Main.storyboard */; };
 		5EA13BEA29ADCFF400052591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA13BE929ADCFF400052591 /* Assets.xcassets */; };
 		5EA13BED29ADCFF400052591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA13BEB29ADCFF400052591 /* LaunchScreen.storyboard */; };
@@ -51,9 +47,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5E00905729B9BC2B00835CAC /* UserDefaultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsViewController.swift; sourceTree = "<group>"; };
-		5E2DDDA329D59114007DC8F1 /* ApiCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallViewController.swift; sourceTree = "<group>"; };
-		5E2DDDA629D591B2007DC8F1 /* ApiCallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallViewModel.swift; sourceTree = "<group>"; };
 		5E35BFFA29AFBB55005C788E /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
 		5E4F144729B4665A00AE7089 /* TodoTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTasksViewController.swift; sourceTree = "<group>"; };
 		5E4F144929B5B76500AE7089 /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
@@ -74,7 +67,6 @@
 		5E6950C329FA4BEC00BD0094 /* Task Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Task Home.png"; sourceTree = "<group>"; };
 		5EA13BDD29ADCFF200052591 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA13BE029ADCFF200052591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5EA13BE429ADCFF200052591 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5EA13BE729ADCFF200052591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EA13BE929ADCFF400052591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EA13BEC29ADCFF400052591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -107,31 +99,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5E2DDDA129D58632007DC8F1 /* ApiCallController */ = {
-			isa = PBXGroup;
-			children = (
-				5E2DDDA529D5918F007DC8F1 /* ViewModel */,
-				5E2DDDA229D590F4007DC8F1 /* Controller */,
-			);
-			path = ApiCallController;
-			sourceTree = "<group>";
-		};
-		5E2DDDA229D590F4007DC8F1 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				5E2DDDA329D59114007DC8F1 /* ApiCallViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		5E2DDDA529D5918F007DC8F1 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				5E2DDDA629D591B2007DC8F1 /* ApiCallViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		5E6950BA29FA4B9C00BD0094 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,10 +246,8 @@
 		5EC2BC7029BB2EF2000EFC27 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				5E2DDDA129D58632007DC8F1 /* ApiCallController */,
 				5EB20AA429D2D493009476D0 /* TasksHomeViewController */,
 				5EB20A9029D16FD2009476D0 /* LoginViewController */,
-				5EA13BE429ADCFF200052591 /* ViewController.swift */,
 				5EDFA0CD29B1D5AA004B094E /* FacebookWebViewController.swift */,
 				5EDFA0CF29B1F401004B094E /* GoogleWebViewController.swift */,
 				5EFE3A4929C5FE02005520FE /* CreateNewTaskListViewController.swift */,
@@ -290,7 +255,6 @@
 				5EC2BC6E29BB0CBC000EFC27 /* CreateTaskViewController.swift */,
 				5E61B37129B873B90077CA1F /* CalendarViewController.swift */,
 				5E61B36929B84CC70077CA1F /* SettingsViewController.swift */,
-				5E00905729B9BC2B00835CAC /* UserDefaultsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -397,19 +361,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E61B37229B873B90077CA1F /* CalendarViewController.swift in Sources */,
-				5E2DDDA729D591B2007DC8F1 /* ApiCallViewModel.swift in Sources */,
 				5EFE3A4A29C5FE02005520FE /* CreateNewTaskListViewController.swift in Sources */,
 				5E61B37429B87E250077CA1F /* CalendarCollectionViewCell.swift in Sources */,
-				5E2DDDA429D59114007DC8F1 /* ApiCallViewController.swift in Sources */,
 				5EB20AA129D173BE009476D0 /* LoginRouter.swift in Sources */,
 				5EC2BC7529BB3389000EFC27 /* TaskListCollectionViewCell.swift in Sources */,
-				5EA13BE529ADCFF200052591 /* ViewController.swift in Sources */,
 				5EC2BC7E29BF349C000EFC27 /* TaskData.swift in Sources */,
 				5EB20A9D29D1739C009476D0 /* LoginConfigurator.swift in Sources */,
 				5EB20AA329D173CC009476D0 /* LoginViewModel.swift in Sources */,
 				5EA13BE129ADCFF200052591 /* AppDelegate.swift in Sources */,
 				5E4F144829B4665A00AE7089 /* TodoTasksViewController.swift in Sources */,
-				5E00905829B9BC2B00835CAC /* UserDefaultsViewController.swift in Sources */,
 				5EB20A9929D1736B009476D0 /* LoginPresenter.swift in Sources */,
 				5EC2BC7C29BF2B9D000EFC27 /* UserFile.swift in Sources */,
 				5E61B37629B890FE0077CA1F /* BottomTabBarController.swift in Sources */,

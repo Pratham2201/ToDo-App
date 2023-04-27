@@ -10,56 +10,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Todo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjQ-dz-rc6">
-                                <rect key="frame" x="39" y="643" width="315" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Log In" titleAlignment="center">
-                                    <fontDescription key="titleFontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="25"/>
-                                    <color key="baseForegroundColor" systemColor="systemGreenColor"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="onClickLogIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="igK-js-N1y"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8eC-nG-4a0">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="569"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGray6Color"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfO-9K-Dig">
-                                <rect key="frame" x="39" y="720" width="315" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Sign Up">
-                                    <fontDescription key="titleFontDescription" name="MyanmarSangamMN-Bold" family="Myanmar Sangam MN" pointSize="25"/>
-                                    <color key="baseForegroundColor" systemColor="systemGreenColor"/>
-                                </buttonConfiguration>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor"/>
-                    </view>
-                    <connections>
-                        <outlet property="btnLogIn" destination="tjQ-dz-rc6" id="f4X-U0-6s5"/>
-                        <outlet property="btnSignUp" destination="zfO-9K-Dig" id="3nl-zA-1gA"/>
-                        <outlet property="homeBackground" destination="8eC-nG-4a0" id="TEe-Mg-p7w"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="75.572519083969468" y="3.5211267605633805"/>
-        </scene>
         <!--Item-->
         <scene sceneID="yew-ck-fvs">
             <objects>
@@ -316,7 +266,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S8c-3O-nce" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1090.8396946564885" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="315" y="1950"/>
         </scene>
         <!--Facebook Web View Controller-->
         <scene sceneID="AUL-kf-zYe">
@@ -331,7 +281,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ea5-QH-jao" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2044" y="4"/>
+            <point key="canvasLocation" x="315" y="1020"/>
         </scene>
         <!--Google Web View Controller-->
         <scene sceneID="845-5z-IUr">
@@ -346,47 +296,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S0h-i6-Lcg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2091" y="-778"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="FRY-jM-JqU">
-            <objects>
-                <viewController storyboardIdentifier="TestViewController" id="UVb-ls-odo" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3JS-DA-IJ2">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mpL-pb-1UW">
-                                <rect key="frame" x="50" y="109" width="300" height="200"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MFI-IM-2K9">
-                                        <rect key="frame" x="20" y="129" width="260" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="8OD-Ka-hfh"/>
-                                    <constraint firstAttribute="bottom" secondItem="MFI-IM-2K9" secondAttribute="bottom" constant="50" id="Lox-eH-4jq"/>
-                                    <constraint firstAttribute="trailing" secondItem="MFI-IM-2K9" secondAttribute="trailing" constant="20" id="ZaU-sL-243"/>
-                                    <constraint firstItem="MFI-IM-2K9" firstAttribute="leading" secondItem="mpL-pb-1UW" secondAttribute="leading" constant="20" id="a5p-FF-RiC"/>
-                                    <constraint firstAttribute="width" constant="300" id="bA8-Ba-2NQ"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="d0c-2l-nb1"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="mpL-pb-1UW" firstAttribute="leading" secondItem="d0c-2l-nb1" secondAttribute="leading" constant="50" id="5Ih-XI-LOT"/>
-                            <constraint firstItem="mpL-pb-1UW" firstAttribute="top" secondItem="d0c-2l-nb1" secondAttribute="top" constant="50" id="mdX-DN-g0g"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FU4-4Q-0hB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3777.8625954198474" y="-6.3380281690140849"/>
+            <point key="canvasLocation" x="1126" y="1020"/>
         </scene>
         <!--Item-->
         <scene sceneID="sW6-XQ-gxF">
@@ -827,73 +737,6 @@
             </objects>
             <point key="canvasLocation" x="3970.2290076335876" y="3038.7323943661972"/>
         </scene>
-        <!--Api Call View Controller-->
-        <scene sceneID="AwM-7O-lU0">
-            <objects>
-                <viewController storyboardIdentifier="ApiCallViewController" id="flz-Uc-DV2" customClass="ApiCallViewController" customModule="Todo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gzE-6z-Ctj">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="yBE-Pu-lKy"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aog-VU-i46" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2062" y="725"/>
-        </scene>
-        <!--User Defaults View Controller-->
-        <scene sceneID="cZI-J9-dtB">
-            <objects>
-                <viewController storyboardIdentifier="UserDefaultsViewController" id="mHK-bw-n1B" customClass="UserDefaultsViewController" customModule="Todo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4yj-sL-jZK">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3T9-8P-TNd">
-                                <rect key="frame" x="20" y="79" width="353" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="DidEndOnExit:" destination="mHK-bw-n1B" eventType="editingDidEndOnExit" id="ihm-kI-oM2"/>
-                                    <action selector="EditDidBegin:" destination="mHK-bw-n1B" eventType="editingDidBegin" id="FvX-7w-h2S"/>
-                                    <action selector="EditingChanged:" destination="mHK-bw-n1B" eventType="editingChanged" id="vdu-ND-Jbn"/>
-                                    <action selector="saveonEditComplete:" destination="mHK-bw-n1B" eventType="editingDidEnd" id="LZo-yL-UJq"/>
-                                </connections>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tC0-Ir-tH5">
-                                <rect key="frame" x="159" y="176" width="75" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <action selector="btnTestOnClick:" destination="mHK-bw-n1B" eventType="touchUpInside" id="fqH-v8-cLt"/>
-                                </connections>
-                            </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vYN-3E-9Wh">
-                                <rect key="frame" x="84" y="292" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBrownColor"/>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="yAG-4G-LwS"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="yAG-4G-LwS" firstAttribute="trailing" secondItem="3T9-8P-TNd" secondAttribute="trailing" constant="20" id="3Qa-Mf-AXT"/>
-                            <constraint firstItem="3T9-8P-TNd" firstAttribute="top" secondItem="yAG-4G-LwS" secondAttribute="top" constant="20" id="7CC-aC-gmv"/>
-                            <constraint firstItem="3T9-8P-TNd" firstAttribute="leading" secondItem="yAG-4G-LwS" secondAttribute="leading" constant="20" id="mgU-mz-06h"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="btnTestGCD" destination="tC0-Ir-tH5" id="Cbx-uj-4rk"/>
-                        <outlet property="tfTestUserDefaults" destination="3T9-8P-TNd" id="Xta-NL-EEv"/>
-                        <outlet property="viewTestGCD" destination="vYN-3E-9Wh" id="Pmy-0z-cNx"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MLV-TO-L8b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2793" y="715"/>
-        </scene>
         <!--Create New Task List View Controller-->
         <scene sceneID="Icl-hG-Utm">
             <objects>
@@ -945,7 +788,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vB9-Ph-MT3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3650" y="734"/>
+            <point key="canvasLocation" x="4801" y="1508"/>
         </scene>
         <!--Calendar-->
         <scene sceneID="hTz-QO-kya">
@@ -1035,9 +878,6 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBrownColor">
-            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
